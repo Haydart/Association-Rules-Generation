@@ -26,5 +26,7 @@ with open('supermarket.csv', newline='') as f:
     frequent_itemsets = frequent_itemsets.sort_values(by=['length', 'support'], ascending=False)
 
     print(frequent_itemsets)
-
     print(frequent_itemsets.iloc[0])
+
+# plt.interactive(False)
+# transactions_to_histogram(data_frame)
