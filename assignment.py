@@ -22,4 +22,6 @@ with open('supermarket.csv', newline='') as f:
     # create additional column for sorting
     frequent_itemsets['length'] = frequent_itemsets['itemsets'].apply(lambda x: len(x))
 
+    # sort the values
+
     print(frequent_itemsets)
